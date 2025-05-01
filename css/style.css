@@ -39,7 +39,9 @@ html{
     color: #ddd;
 }
 .spiderman1{
-    width: 600px;  
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
 }
 
 .biografia-container{
@@ -53,6 +55,7 @@ html{
 .citacao-container{
     background-color: #dfc3c377;
     padding: 15px;
+    border-radius: 10px; 
 }
 .citacao-container blockquote{
     font-weight: bold;
@@ -63,6 +66,7 @@ html{
     font-weight: 400;
     font-style: italic;
     font-size: 18px;
+    
 }
 .curiosidade-spider{
     padding: 25px 0px;
@@ -80,5 +84,16 @@ html{
     color: #ddd;
 }
 .img-bold img {
-    width: 550px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+.info-compra{
+    color:#ddd;
+}
+.info-compra a{
+    color: rgb(168, 48, 48);
+    font-family: "Marvel", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
